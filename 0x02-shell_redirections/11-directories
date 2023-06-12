@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(($(find . -type d -mindepth 1 -maxdepth 1 -printf ‘.’ | wc -m) -1))
+find . -type d -not -name '.' | wc -l
