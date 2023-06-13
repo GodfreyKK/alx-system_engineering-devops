@@ -1,0 +1,2 @@
+#!/bash/bin
+find PATH -type d | wc -l
